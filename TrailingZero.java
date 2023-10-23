@@ -12,6 +12,8 @@ public class TrailingZero {
         int no = sc.nextInt();
 
         System.out.println("Last Most Zeroes : " + trailingZero(no));
+
+        sc.close();
     }
 
     static int trailingZero(int no){
